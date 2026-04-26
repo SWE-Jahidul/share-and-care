@@ -4,7 +4,7 @@ import { GalleryCard } from "@/components/gallery-card"
 import { galleryImages } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "গ্যালারি - Care and Share",
+  title: "গ্যালারি - CARE & SHARE FOUNDATION",
   description: "বিশ্বজুড়ে সম্প্রদায় থেকে আমাদের প্রভাবের ভিজ্যুয়াল গল্প।",
 }
 

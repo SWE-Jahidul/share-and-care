@@ -4,8 +4,8 @@ import { SectionTitle } from "@/components/section-title"
 import { teamMembers } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "আমাদের সম্পর্কে - Care and Share",
-  description: "Care and Share এর মিশন, দৃষ্টিভঙ্গি এবং বৈশ্বিক প্রভাব তৈরিতে নিবেদিত দল সম্পর্কে জানুন।",
+  title: "আমাদের সম্পর্কে - CARE & SHARE FOUNDATION",
+  description: "CARE & SHARE FOUNDATION এর মিশন, দৃষ্টিভঙ্গি এবং বৈশ্বিক প্রভাব তৈরিতে নিবেদিত দল সম্পর্কে জানুন।",
 }
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
       <section className="py-16 md:py-24 px-4 bg-card">
         <div className="max-w-7xl mx-auto">
           <SectionTitle
-            title="Care and Share সম্পর্কে"
+            title="CARE & SHARE FOUNDATION সম্পর্কে"
             subtitle="টেকসই উন্নয়ন এবং সম্প্রদায় ক্ষমতায়নে নিবেদিত একটি বৈশ্বিক আন্দোলন"
           />
         </div>
@@ -37,7 +37,7 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">আমাদের গল্প</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  ২০১০ সালে প্রতিষ্ঠিত, Care and Share একটি সরল বিশ্বাস দিয়ে শুরু হয়েছিল: প্রতিটি মানুষ মানসম্পন্ন শিক্ষা, স্বাস্থ্যসেবা এবং অর্থনৈতিক উন্নয়নের সুযোগ পাওয়ার যোগ্য।
+                  ২০১০ সালে প্রতিষ্ঠিত, CARE & SHARE FOUNDATION একটি সরল বিশ্বাস দিয়ে শুরু হয়েছিল: প্রতিটি মানুষ মানসম্পন্ন শিক্ষা, স্বাস্থ্যসেবা এবং অর্থনৈতিক উন্নয়নের সুযোগ পাওয়ার যোগ্য।
                 </p>
                 <p>
                   যা একটি ছোট উদ্যোগ হিসাবে শুরু হয়েছিল তা এখন একটি বৈশ্বিক আন্দোলনে পরিণত হয়েছে, আফ্রিকা, এশিয়া, ল্যাটিন আমেরিকা এবং তার বাইরে ২৮+ দেশে কাজ করছে।

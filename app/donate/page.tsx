@@ -5,7 +5,7 @@ import { SectionTitle } from "@/components/section-title"
 import { Check, Heart } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "দান করুন - Care and Share",
+  title: "দান করুন - CARE & SHARE FOUNDATION",
   description: "আমাদের মিশন সমর্থন করুন এবং বিশ্বজুড়ে সম্প্রদায়গুলিতে দীর্ঘস্থায়ী পরিবর্তন তৈরিতে সাহায্য করুন।",
 }
 

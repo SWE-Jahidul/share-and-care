@@ -4,7 +4,7 @@ import { ProjectCard } from "@/components/project-card"
 import { projects } from "@/lib/data"
 
 export const metadata: Metadata = {
-  title: "প্রকল্প - Care and Share",
+  title: "প্রকল্প - CARE & SHARE FOUNDATION",
   description: "বিশ্বব্যাপী পার্থক্য তৈরি করছে আমাদের সকল সক্রিয় প্রকল্প অন্বেষণ করুন।",
 }
 

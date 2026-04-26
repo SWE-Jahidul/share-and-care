@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -23,12 +24,16 @@ export function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 font-bold text-xl text-foreground hover:text-primary transition-colors"
+            className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
           >
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold">CS</span>
-            </div>
-            <span>Care and Share</span>
+            <Image 
+              src="/logo.jpg" 
+              alt="Care & Share Foundation Logo" 
+              width={160} 
+              height={160} 
+              className="h-14 w-auto object-contain"
+            /> 
+            CARE & SHARE FOUNDATION
           </Link>
 
           {/* Desktop Navigation */}

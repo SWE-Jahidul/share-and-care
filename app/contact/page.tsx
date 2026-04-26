@@ -7,8 +7,8 @@ import { SectionTitle } from "@/components/section-title"
 import { Mail, MapPin, Phone } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "আমাদের সাথে যোগাযোগ করুন - Care and Share",
-  description: "Care and Share এর সাথে যোগাযোগ করুন। আমরা আপনার কথা শুনতে খুশি।",
+  title: "আমাদের সাথে যোগাযোগ করুন - CARE & SHARE FOUNDATION",
+  description: "CARE & SHARE FOUNDATION এর সাথে যোগাযোগ করুন। আমরা আপনার কথা শুনতে খুশি।",
 }
 
 export default function Contact() {
@@ -34,7 +34,7 @@ export default function Contact() {
                 <Phone className="w-7 h-7 text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">ফোন</h3>
-              <p className="text-muted-foreground">+88 (01) 123-4567</p>
+              <p className="text-muted-foreground">01880468888</p>
               <p className="text-xs text-muted-foreground mt-2">সোম-শুক্র উপলব্ধ, ৯টা-৫টা UTC</p>
             </div>
 
@@ -45,7 +45,7 @@ export default function Contact() {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">ইমেল</h3>
               <Link href="mailto:info@careandshare.org" className="text-muted-foreground hover:text-primary transition-colors">
-                info@careandshare.org
+               orgcareandshare@gmail.com
               </Link>
               <p className="text-xs text-muted-foreground mt-2">আমরা ২৪ ঘন্টায় প্রতিক্রিয়া জানাই</p>
             </div>

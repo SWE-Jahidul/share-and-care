@@ -17,11 +17,11 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Care and Share - বৈশ্বিক প্রভাব তৈরি করছি',
-  description: 'Care and Share একটি অলাভজনক সংস্থা যা ২৮+ দেশে টেকসই উন্নয়ন, শিক্ষা, স্বাস্থ্যসেবা এবং সম্প্রদায় ক্ষমতায়নে নিবেদিত।',
+  title: 'CARE & SHARE FOUNDATION - বৈশ্বিক প্রভাব তৈরি করছি',
+  description: 'CARE & SHARE FOUNDATION একটি অলাভজনক সংস্থা যা ২৮+ দেশে টেকসই উন্নয়ন, শিক্ষা, স্বাস্থ্যসেবা এবং সম্প্রদায় ক্ষমতায়নে নিবেদিত।',
   generator: 'v0.app',
   openGraph: {
-    title: 'Care and Share - বৈশ্বিক প্রভাব তৈরি করছি',
+    title: 'CARE & SHARE FOUNDATION - বৈশ্বিক প্রভাব তৈরি করছি',
     description: 'বিশ্বব্যাপী টেকসই উন্নয়ন এবং সম্প্রদায় ক্ষমতায়নে নিবেদিত।',
     type: 'website',
   },

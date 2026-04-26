@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Mail, MapPin, Phone, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
 
 export function Footer() {
@@ -8,11 +9,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
-            <div className="flex items-center gap-2 font-bold text-lg mb-4">
-              <div className="w-8 h-8 bg-primary-foreground rounded-lg flex items-center justify-center">
-                <span className="text-foreground font-bold">CS</span>
-              </div>
-              <span>Care and Share</span>
+            <div className="flex items-center gap-2 mb-4">
+              <Image
+                src="/logo.jpg"
+                alt="Care & Share Foundation Logo"
+                width={200}
+                height={200}
+                className="h-16 w-auto object-contain bg-white rounded-lg p-1"
+              />CARE & SHARE FOUNDATION
             </div>
             <p className="text-background/80 text-sm leading-relaxed">
               টেকসই উন্নয়ন উদ্যোগের মাধ্যমে বিশ্বজুড়ে সম্প্রদায়গুলিতে দীর্ঘস্থায়ী ইতিবাচক পরিবর্তন তৈরিতে নিবেদিত।
@@ -52,11 +56,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="text-background/80">+88 (01) 123-4567</span>
+                <span className="text-background/80">01880468888</span>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span className="text-background/80">info@careandshare.org</span>
+                <span className="text-background/80">orgcareandshare@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
@@ -69,7 +73,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">আমাদের অনুসরণ করুন</h3>
             <div className="flex gap-4">
-              <Link href="#" className="text-background/80 hover:text-background transition-colors">
+              <Link href="https://www.facebook.com/profile.php?id=61574314664845" className="text-background/80 hover:text-background transition-colors">
                 <Facebook className="w-5 h-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
@@ -91,7 +95,7 @@ export function Footer() {
 
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/80">
-            <p>&copy; ২০২৪ Care and Share। সমস্ত অধিকার সংরক্ষিত।</p>
+            <p>&copy; ২০২৪ CARE & SHARE FOUNDATION। সমস্ত অধিকার সংরক্ষিত।</p>
             <div className="flex gap-6">
               <Link href="#" className="hover:text-background transition-colors">
                 গোপনীয়তা নীতি

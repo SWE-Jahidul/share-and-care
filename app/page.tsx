@@ -25,7 +25,7 @@ export default function Home() {
                 টেকসই উন্নয়নের মাধ্যমে বৈশ্বিক প্রভাব তৈরি করছি
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-balance">
-                Care and Share শিক্ষা, স্বাস্থ্যসেবা, পরিষ্কার পানি অ্যাক্সেস এবং অর্থনৈতিক উন্নয়ন কর্মসূচির মাধ্যমে বিশ্বব্যাপী সম্প্রদায় ক্ষমতায়নে নিবেদিত।
+                CARE & SHARE FOUNDATION শিক্ষা, স্বাস্থ্যসেবা, পরিষ্কার পানি অ্যাক্সেস এবং অর্থনৈতিক উন্নয়ন কর্মসূচির মাধ্যমে বিশ্বব্যাপী সম্প্রদায় ক্ষমতায়নে নিবেদিত।
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
