@@ -33,7 +33,7 @@ export function Navbar() {
               height={160} 
               className="h-14 w-auto object-contain"
             /> 
-            CARE & SHARE FOUNDATION
+           <span className="font-bold text-lg">CARE & SHARE FOUNDATION</span> 
           </Link>
 
           {/* Desktop Navigation */}
