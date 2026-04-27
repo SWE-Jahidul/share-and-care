@@ -22,10 +22,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight text-balance">
-                টেকসই উন্নয়নের মাধ্যমে বৈশ্বিক প্রভাব তৈরি করছি
+                We care, We share, We are everywhere
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-balance">
-                CARE & SHARE FOUNDATION শিক্ষা, স্বাস্থ্যসেবা, পরিষ্কার পানি অ্যাক্সেস এবং অর্থনৈতিক উন্নয়ন কর্মসূচির মাধ্যমে বিশ্বব্যাপী সম্প্রদায় ক্ষমতায়নে নিবেদিত।
+                সামাজিক উন্নয়ন, মাদকদ্রব্য নিয়ন্ত্রণ, জলবায়ু পরিবর্তন প্রশমন, শিশু শিক্ষা,পরিবেশ রক্ষা।
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
@@ -56,36 +56,62 @@ export default function Home() {
       </section>
 
       {/* Mission Section */}
+
       <section className="py-16 md:py-24 px-4 bg-card">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            {/* Mission */}
             <div className="flex flex-col items-center text-center p-8 rounded-lg bg-background">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Heart className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">আমাদের মিশন</h3>
-              <p className="text-muted-foreground">
-                শিক্ষা, স্বাস্থ্যসেবা এবং টেকসই উন্নয়নের মাধ্যমে সম্প্রদায়কে ক্ষমতায়ন করে দীর্ঘস্থায়ী ইতিবাচক পরিবর্তন তৈরি করা।
-              </p>
+
+              <ul className="text-muted-foreground list-disc list-inside space-y-2 text-left">
+                <li>একটি শিক্ষিত সমাজ গড়ে তোলা</li>
+                <li>মাদকমুক্ত পরিবেশ নিশ্চিত করা</li>
+                <li>মানবিক মূল্যবোধ উন্নয়ন</li>
+                <li>পরিবেশ ও মানবতা সুরক্ষা</li>
+              </ul>
             </div>
+
+            {/* Vision */}
             <div className="flex flex-col items-center text-center p-8 rounded-lg bg-background">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Users className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">আমাদের দৃষ্টিভঙ্গি</h3>
-              <p className="text-muted-foreground">
-                একটি বিশ্ব যেখানে প্রতিটি মানুষের মানসম্পন্ন শিক্ষা, স্বাস্থ্যসেবা এবং সমৃদ্ধির সুযোগ রয়েছে।
-              </p>
+
+              <ul className="text-muted-foreground list-disc list-inside space-y-2 text-left">
+                <li>শিশু ও নারী শিক্ষার প্রসার</li>
+                <li>ফ্রি মেডিকেল ক্যাম্প আয়োজন</li>
+                <li>অসহায়দের জরুরি সহায়তা</li>
+                <li>মাদকমুক্ত সমাজ গঠন</li>
+                <li>নৈতিক মূল্যবোধ তৈরি</li>
+                <li>পরিবেশ রক্ষায় কাজ করা</li>
+              </ul>
             </div>
+
+            {/* Values */}
             <div className="flex flex-col items-center text-center p-8 rounded-lg bg-background">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Globe className="w-8 h-8 text-primary" />
+                <Users className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">আমাদের মূল্যবোধ</h3>
-              <p className="text-muted-foreground">
-                স্বচ্ছতা, টেকসইতা, সম্প্রদায় নেতৃত্বাধীন উন্নয়ন এবং পরিমাপযোগ্য প্রভাবের প্রতি প্রতিশ্রুতি।
-              </p>
+
+              <ul className="text-muted-foreground list-disc list-inside space-y-2 text-left">
+                <li>মানবসেবা ও পরোপকার</li>
+                <li>সততা ও স্বচ্ছতা</li>
+                <li>নিঃস্বার্থ মানসিকতা</li>
+                <li>সামাজিক দায়বদ্ধতা</li>
+                <li>একতা ও দলীয় সমন্বয়</li>
+                <li>সমঅধিকার ও নিরপেক্ষতা</li>
+                <li>জবাবদিহিতা</li>
+                <li>উদ্ভাবন ও ইতিবাচক পরিবর্তন</li>
+              </ul>
             </div>
+
           </div>
         </div>
       </section>
@@ -145,22 +171,51 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-16 md:py-24 px-4">
+      <section className="py-16 md:py-24 px-4 bg-muted/30">
         <div className="max-w-7xl mx-auto">
+
           <SectionTitle
-            title="পরিবর্তনের কণ্ঠস্বর"
-            subtitle="বাস্তব মানুষের গল্প যাদের জীবন আমাদের কর্মসূচি দ্বারা রূপান্তরিত হয়েছে"
+            title="২০২৬ সালের কর্মপরিকল্পনা"
+            subtitle="আমাদের স্বল্পমেয়াদী ও দীর্ঘমেয়াদী উদ্যোগসমূহ"
           />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            {testimonials.map((testimonial) => (
-              <TestimonialCard
-                key={testimonial.id}
-                name={testimonial.name}
-                role={testimonial.role}
-                content={testimonial.content}
-                avatar={testimonial.avatar}
-              />
-            ))}
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+
+            {/* Short Term Plan */}
+            <div className="bg-background p-8 rounded-xl shadow-sm border">
+              <h3 className="text-xl font-semibold mb-4 text-primary">
+                স্বল্পমেয়াদী পরিকল্পনা ২০২৬
+              </h3>
+
+              <ul className="list-decimal list-inside space-y-2 text-muted-foreground text-left">
+                <li>শীতবস্ত্র বিতরণ - ১০০ পরিবার</li>
+                <li>ইফতার সামগ্রী বিতরণ - ১০০ পরিবার</li>
+                <li>ঈদুল ফিতরের বস্ত্র বিতরণ - ১০০ পরিবার</li>
+                <li>ঈদুল আযহার মাংস বিতরণ - ৫০ পরিবার</li>
+                <li>মেধাবৃত্তি বিতরণ (১ম - ১০ম শ্রেণী) - ৪০,০০০ টাকা</li>
+                <li>শিক্ষা সহায়তা (বই, খাতা, কলম, জ্যামিতি বক্স)</li>
+                <li>এতিমখানায় দ্রব্য সামগ্রী বিতরণ - ২ মাস</li>
+                <li>ফ্রি মেডিকেল ক্যাম্প ও ওষুধ বিতরণ - বছরে ৫ বার</li>
+                <li>পিছিয়ে পড়া মানুষের জরুরি সহযোগিতা</li>
+                <li>অসুস্থদের আর্থিক অনুদান প্রদান</li>
+              </ul>
+            </div>
+
+            {/* Long Term Plan */}
+            <div className="bg-background p-8 rounded-xl shadow-sm border">
+              <h3 className="text-xl font-semibold mb-4 text-primary">
+                দীর্ঘমেয়াদী কর্মপরিকল্পনা ২০২৬
+              </h3>
+
+              <ul className="list-decimal list-inside space-y-2 text-muted-foreground text-left">
+                <li>পাঞ্জেখানা মসজিদ নির্মাণ</li>
+                <li>মসজিদের ওযুখানা ও টয়লেট নির্মাণ</li>
+                <li>মসজিদের ব্যয় ঘাটতি পূরণ ও প্রয়োজনীয় জিনিসপত্র প্রদান</li>
+                <li>অগভীর নলকূপ স্থাপন</li>
+                <li>মাহফিলের আয়োজন</li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </section>
@@ -192,6 +247,54 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
+
+
+      {/* Founder Message */}
+      <section className="py-16 md:py-24 px-4 bg-background">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+            {/* Image */}
+            <div className="relative w-full h-80 md:h-[420px]">
+              <Image
+                src="/images/download.jpg" // 👉 এখানে তোমার founder image path দাও
+                alt="Founder"
+                fill
+                className="object-cover rounded-xl shadow-md"
+              />
+            </div>
+
+            {/* Content */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                প্রতিষ্ঠাতার বার্তা
+              </h2>
+
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                আমাদের এই উদ্যোগের মূল লক্ষ্য হচ্ছে একটি মানবিক, শিক্ষিত এবং সচেতন সমাজ গড়ে তোলা।
+                আমরা বিশ্বাস করি, ছোট ছোট উদ্যোগ একদিন বড় পরিবর্তন নিয়ে আসতে পারে।
+                সমাজের অবহেলিত মানুষের পাশে দাঁড়ানো এবং তাদের জীবনমান উন্নয়নের জন্য আমরা নিরলসভাবে কাজ করে যাচ্ছি।
+              </p>
+
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                আপনাদের সহযোগিতা এবং ভালোবাসাই আমাদের শক্তি।
+                আসুন, আমরা সবাই মিলে একটি সুন্দর ও নিরাপদ ভবিষ্যৎ গড়ে তুলি।
+              </p>
+
+              {/* Signature */}
+              <div className="mt-6">
+                <h4 className="text-lg font-semibold text-foreground">
+               মোহাম্মাদ অলিউর রাহমান 
+                </h4>
+                <p className="text-sm text-muted-foreground">
+                  প্রতিষ্ঠাতা, CARE & SHARE FOUNDATION
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
       <section className="py-16 md:py-24 px-4 bg-foreground text-background">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">

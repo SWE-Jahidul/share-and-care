@@ -85,7 +85,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 md:py-24 px-4">
+      {/* <section className="py-16 md:py-24 px-4">
         <div className="max-w-7xl mx-auto">
           <SectionTitle
             title="আমাদের নেতৃত্ব দল"
@@ -109,7 +109,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Partnerships */}
       <section className="py-16 md:py-24 px-4 bg-card">
