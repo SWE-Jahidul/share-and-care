@@ -257,7 +257,7 @@ export default function Home() {
             {/* Image */}
             <div className="relative w-full h-80 md:h-[420px]">
               <Image
-                src="/images/download.jpg" // 👉 এখানে তোমার founder image path দাও
+                src="/images/download.png" // 👉 এখানে তোমার founder image path দাও
                 alt="Founder"
                 fill
                 className="object-cover rounded-xl shadow-md"
@@ -291,7 +291,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
