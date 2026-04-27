@@ -56,7 +56,7 @@ export default function Contact() {
                 <MapPin className="w-7 h-7 text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">অফিস</h3>
-              <p className="text-muted-foreground">ঢাকা<br />বাংলাদেশ</p>
+              <p className="text-muted-foreground">ভান্ডারিয়া, পিরোজপুর<br />বাংলাদেশ</p>
               <p className="text-xs text-muted-foreground mt-2">অ্যাপয়েন্টমেন্টের মাধ্যমে পরিদর্শন করুন</p>
             </div>
           </div>

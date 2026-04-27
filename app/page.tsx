@@ -309,7 +309,7 @@ export default function Home() {
                 <Heart className="ml-2 w-4 h-4" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-background/40 text-background hover:bg-background/10" asChild>
+            <Button size="lg" variant="outline" className="border-background/40  text-background text-black" asChild>
               <Link href="/contact">
                 যোগাযোগ করুন
                 <ArrowRight className="ml-2 w-4 h-4" />
