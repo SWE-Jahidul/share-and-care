@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <div className="relative h-96 md:h-full min-h-96">
               <Image
-                src="/images/project-1.jpg"
+                src="cover.jpg"
                 alt="Community impact"
                 fill
                 className="object-cover rounded-lg"
