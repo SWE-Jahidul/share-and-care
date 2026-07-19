@@ -27,7 +27,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 md:h-full min-h-96">
               <Image
-                src="/images/project-2.jpg"
+                src="/cover.jpg"
                 alt="Our story"
                 fill
                 className="object-cover rounded-lg"
